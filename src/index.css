@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #1152d4;
+  --color-background-light: #f6f6f8;
+  --color-background-dark: #101622;
+}
+
+body {
+  @apply font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100;
+}
